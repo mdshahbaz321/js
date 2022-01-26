@@ -1,0 +1,19 @@
+@charset "utf-8";
+.fa-check{
+    color: rgb(109, 174, 11);
+    opacity: 0;
+}
+.fa-close{
+    color: rgb(141, 8, 8);
+}
+#box{
+    width: 250px;
+    height: auto;
+    background-color: #cccc;
+    display:none ;
+    
+}
+
+#upper,#lower,#num{
+    color: red;
+}

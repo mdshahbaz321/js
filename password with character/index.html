@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="User ID"><br><br>
+    <input type="text" placeholder="Password" id="password" onclick="warning()" oninput="result()"> 
+    <i id="pass-check" class=" fa fa-check"></i> <span id="alert"></span>
+    <br><br>
+    <div id="box">
+        <p id="upper">Enter minimum one capital letter <i class="fa fa-close" id="upper-close"></i> <i id="upper-check" class="fa fa-check"></i></p><br>
+        <p id="lower">Enter minimum one small letter <i id="lower-close" class="fa fa-close"></i> <i id="lower-check" class="fa fa-check"></i></p> <br>
+        <p id="num">Enter minimum one number <i id="num-close" class="fa fa-close"></i> <i id="num-check" class="fa fa-check"></i></p>
+    </div>
+    <input type="submit" value="login">
+    <script src="script.js"></script>
+</body>
+</html>
