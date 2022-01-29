@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    
+    #box{
+        width: 180px;
+        height: 110px;
+        background-color: red;
+        border: 1px solid wheat;
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+    }   
+</style>
+<script>
+    function wap()
+    {
+        var x = document.getElementById("range").value;
+	var y = document.getElementById("result");
+	y.style.fontSize=x+"px";
+	var z = document.getElementById("showtext");
+	z.innerHTML = "Your font size  is now= "+x+" px";
+    }
+</script>
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="result">WAP INSTITUTE MY ACADEMY</h1>
+    <div id="box">
+        <h5 id="showtext"></h5><br>
+        <input type="range" id="range" min="1" max="1000" oninput="wap()" >
+    </div>
+</body>
+</html>
