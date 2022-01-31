@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+body,h1,h2,h3,h5,h6,p,{
+    padding: 0;
+    margin :0;
+
+}
+body{
+    background-color: rgba(226, 196, 156, 0.692);
+    padding: 10px;
+    height: 6px;
+}
+header{
+    padding: 10px;
+    margin: 0 auto;
+    width: 95%;
+    height: 80px;
+    background-color: crimson;
+    font-size: 30px;
+    font-family: scream real;
+    text-align: center;
+}
+#text{
+    float: left;
+    margin-top: 30px;
+    width: 45%;
+    height: 500px;
+    background-color: rgb(232, 222, 222);
+    border: none;
+    margin-bottom: 10px;
+    
+}
+#box
+{
+    float: right;
+    margin-top: 30px;
+    width: 45%;
+    height: 500px;
+    background-color: rgb(222, 225, 233);
+    margin-bottom: 10px;
+    
+}
+footer
+{
+    background-color: rgb(0, 0, 0.5);
+    width: 99%;
+    height: 100px;
+    font-size: 30px;
+    font-family: calibri;
+}
+button{
+    position: auto;
+    bottom: 0;
+    background-color: rgb(232, 101, 54);
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    font-family: calibri;
+    float: left;
+    border: none;
+    border-radius: 30px;
+    margin-left: 35%;
+
+}
