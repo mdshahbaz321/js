@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            box-sizing: border-box;
+            
+        }
+        h1,h2,h3,h4,h5,h6,body {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 1000px;
+        }
+
+        #image{
+            width:500px;
+            height: 300px;
+            float: left;
+        }
+        #image-box{
+            width: 550px;
+            height: 500px;
+            border: 20px groove red;
+            top: 20px;
+            left: 20%;
+            right: 20%;
+            }
+           
+    </style>
+    
+
+    </script>
+    <title>Document</title>
+</head>
+<body><center>
+    <div id="image-box">
+    <img id="image" src="a.jpg" alt="a">
+    <div id="input-box">
+        <h4>Brightness</h4>
+        <input type="range" id="range-1" min="0" max="150" oninput="wap()">
+        <h4>Contrast</h4>
+        <input type="range" id="range-2" min="0" max="400" oninput="wap1()">
+        <h4>Saturate</h4> 
+        <input type="range" id="range-3" min="0" max="400" oninput="wap2()">
+        <p id="write"></p>
+    </div><br><br><br><br><hr>
+        <h1 >Calculate Everything and Compare</h1> <hr>
+        <input id="write" type="text">
+        <button onclick="calculate()">Calculate</button>
+        <h1 id= result></h1>
+       
+
+      </center> 
+    <script src="script.js">   </script>
+</body>
+</html>
