@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <header>SignUp form</header><br>
+    <section>
+        <form action="">
+        First name <br>
+        <input type="text" name="first name" id="fname" onblur="firstname()"onclick="firstclose();lastclose()" ><i class="fa fa-check" id="fcheck" style="display: none;"></i>
+        <br><br>
+        Last name <br>
+        <input type="text" name="last name" id="lname" onclick="firstname();lastclose()" onblur= "lastnam();user()" > <i class="fa fa-check" id="lcheck" style="display: none;"></i><br><br>
+        Mobile no. <br>
+        <input type="text" name="mobile" id="mnumber" onclick="firstname();lastnam()" onblur="phone()"> <i class="fa fa-check" id="mcheck" style="display: none;"></i> <br><br>
+        Re-mobile no. <br>
+        <input type="text" name="re-mobile" id="rnumber" onclick="firstname();lastnam();phone()" onblur="rmobile()"> <i class="fa fa-check" id="rcheck" style="display: none;"></i> <br><br>
+        Email <br>
+        <input type="email" name="email" id="email" onclick="firstname();lastnam()" oninput="email_val()"> <i class="fa fa-check" id="echeck" style="display: none;"></i>
+        <div id="email-box">
+            <span id="gmail" onclick="email_click()">gmail.com</span>
+            <span id="yahoo" onclick="yahoo_click()">yahoomail.com</span>
+        </div><br><br>
+        Username <br>
+        <input type="text" name="username" id="uname" onclick="firstname()lastnam()"> <i class="fa fa-check" id="ucheck" style="display: none;"></i> <br><br>
+        Password <br>
+        <input type="password" onclick="firstname();lastnam()" id="pass" oninput=" sub()" onblur="password1()"> <i class="fa fa-check" id="pcheck" style="display: none;"></i> <br><br>
+        <input type="submit" value="sign-Up now" id="submit" disabled="disabled">
+
+            </form>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>

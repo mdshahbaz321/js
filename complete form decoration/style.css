@@ -1,0 +1,36 @@
+@charset "utf-8";
+*{
+    box-sizing: border-box;
+}
+input{
+    width: 250px;
+    height: 26px;
+}
+form{
+    font-family: calibri;
+}
+#submit{
+    background-color: rgb(218, 210, 210);
+    border: none;
+    cursor: not-allowed;
+}
+#submit:hover{
+    background-color: rgb(63, 152, 235);
+    border: none;
+}
+#fcheck{
+    color: rgb(89, 145, 4);
+}
+input{
+    border: 1px solid #ccc;
+}
+i{
+    color: rgb(89, 145, 4);
+}
+#gmail,#yahoo {
+    color: blue;
+    cursor: pointer;
+}
+#email-box{
+    display: none;
+}
