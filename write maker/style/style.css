@@ -1,0 +1,6 @@
+@charset "utf-8";
+#box{
+    width: 400px;
+    height: 300px;
+    border: 1px solid brown;
+}
